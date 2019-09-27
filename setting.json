@@ -1,0 +1,68 @@
+{
+    "workbench.startupEditor": "welcomePage",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "HookyQR.beautify",
+    },
+    "[scss]": {
+        "editor.tabSize": 4,
+    },
+    "[vue]": {
+        "editor.formatOnSave": false,
+    },
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "auto-close-tag.fullMode": true,
+    "auto-close-tag.SublimeText3Mode": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "html-css-class-completion.enableEmmetSupport": true,
+    "npm-intellisense.importQuotes": "\"",
+    "prettier.jsxBracketSameLine": true,
+    "prettier.printWidth": 100,
+    "prettier.trailingComma": "es5",
+    "prettier.useTabs": true,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2,
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
+    "workbench.editor.showTabs": true,
+    "editor.renderWhitespace": "none",
+    "material-icon-theme.folders.color": "#ef5350",
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "material-icon-theme.activeIconPack": "react_redux",
+    "workbench.colorTheme": "Monokai",
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "SECTION:",
+            "color": "black",
+            "backgroundColor": "white",
+        }
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ]
+}
