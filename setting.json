@@ -14,9 +14,11 @@
     },
     "[scss]": {
         "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[vue]": {
         "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
@@ -26,10 +28,10 @@
     "eslint.autoFixOnSave": true,
     "eslint.packageManager": "yarn",
     "html-css-class-completion.enableEmmetSupport": true,
-    "npm-intellisense.importQuotes": "\"",
+    "npm-intellisense.importQuotes": "",
     "prettier.jsxBracketSameLine": true,
     "prettier.printWidth": 100,
-    "prettier.trailingComma": "es5",
+    "prettier.trailingComma": "all",
     "prettier.useTabs": true,
     "editor.insertSpaces": false,
     "editor.tabSize": 2,
@@ -47,13 +49,18 @@
     },
     "gitlens.hovers.currentLine.over": "line",
     "material-icon-theme.activeIconPack": "react_redux",
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Atom One Dark",
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
         {
-            "text": "SECTION:",
-            "color": "black",
-            "backgroundColor": "white",
+            "text": "section:",
+            "color": "red",
+            "backgroundColor": "BlanchedAlmond",
+        },
+        {
+            "text": "module:",
+            "color": "white",
+            "backgroundColor": "orange",
         }
     ],
     "liveServer.settings.donotShowInfoMsg": true,
@@ -63,6 +70,14 @@
         {
             "language": "vue",
             "autoFix": true
-        }
-    ]
+        },
+    ],
+    "prettier.jsxSingleQuote": false,
+    "prettier.singleQuote": true,
+    "html-css-class-completion.enableScssFindUsage": true,
+    "editor.fontLigatures": true,
+    "prettier.arrowParens": "always",
+    "debug.console.wordWrap": true,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestionsDelay": 0
 }
