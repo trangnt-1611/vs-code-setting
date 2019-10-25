@@ -76,7 +76,6 @@
     "prettier.singleQuote": true,
     "html-css-class-completion.enableScssFindUsage": true,
     "editor.fontLigatures": true,
-    "prettier.arrowParens": "always",
     "debug.console.wordWrap": true,
     "editor.wordWrap": "on",
     "editor.quickSuggestionsDelay": 0
