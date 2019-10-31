@@ -78,5 +78,11 @@
     "editor.fontLigatures": true,
     "debug.console.wordWrap": true,
     "editor.wordWrap": "on",
-    "editor.quickSuggestionsDelay": 0
+    "editor.quickSuggestionsDelay": 0,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
