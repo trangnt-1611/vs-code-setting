@@ -29,10 +29,6 @@
     "eslint.packageManager": "yarn",
     "html-css-class-completion.enableEmmetSupport": true,
     "npm-intellisense.importQuotes": "",
-    "prettier.jsxBracketSameLine": true,
-    "prettier.printWidth": 100,
-    "prettier.trailingComma": "all",
-    "prettier.useTabs": true,
     "editor.insertSpaces": false,
     "editor.tabSize": 2,
     "[css]": {
@@ -61,6 +57,12 @@
             "text": "module:",
             "color": "white",
             "backgroundColor": "orange",
+        },
+        {
+            "text": "function:",
+            "color": "white",
+            "backgroundColor": "orange",
+            "overviewRulerColor": "black",
         }
     ],
     "liveServer.settings.donotShowInfoMsg": true,
@@ -72,8 +74,6 @@
             "autoFix": true
         },
     ],
-    "prettier.jsxSingleQuote": false,
-    "prettier.singleQuote": true,
     "html-css-class-completion.enableScssFindUsage": true,
     "editor.fontLigatures": true,
     "debug.console.wordWrap": true,
@@ -84,5 +84,7 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "workbench.colorCustomizations": {},
+    "workbench.sideBar.location": "right"
 }
