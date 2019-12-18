@@ -25,7 +25,6 @@
     "auto-close-tag.fullMode": true,
     "auto-close-tag.SublimeText3Mode": true,
     "eslint.alwaysShowStatus": true,
-    "eslint.autoFixOnSave": true,
     "eslint.packageManager": "yarn",
     "html-css-class-completion.enableEmmetSupport": true,
     "npm-intellisense.importQuotes": "",
@@ -69,10 +68,7 @@
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        {
-            "language": "vue",
-            "autoFix": true
-        },
+        "vue",
     ],
     "html-css-class-completion.enableScssFindUsage": true,
     "editor.fontLigatures": true,
@@ -86,5 +82,11 @@
         "**/.factorypath": true
     },
     "workbench.colorCustomizations": {},
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "indenticator.color.dark": "white",
+    "editor.fontSize": 12,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
 }
